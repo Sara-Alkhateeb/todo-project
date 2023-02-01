@@ -1,0 +1,164 @@
+* {
+    font-family: 'Righteous', cursive;
+}
+ body {
+    background-color: rgb(255, 252, 251);
+    display: flex;
+    
+    
+}
+
+header {
+    background-color: rgba(246, 240, 237, 0.992);
+    position: fixed;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-size: 20px;
+    border : 30px solid rgb(225, 72, 17)
+}
+
+header div img {
+    width: px;
+    height: 35px;
+    margin: 10px 0 10px 20px;
+    float: left;}
+
+
+nav {
+float: center;
+font-size: medium;
+}
+
+    
+nav ul li {
+    display: inline-block;
+    padding: 20px 10px;
+    font-family: 'Righteous', cursive;
+    margin-right: 30px;
+}
+a {
+    color: #060201;
+    text-decoration: none;
+}
+
+
+
+main div h1 {
+    padding: 50px;
+    color: rgb(238, 232, 223);
+    font-size: 120px;
+}
+
+main div image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 10px 0 10px 20px;
+    float: left;
+}
+div#par-part {
+    background-color: #f9ca7a;
+    width: 600px;
+    height: 400px;
+    margin: 40px 100px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 7px #0000006e;
+}
+
+#par-part p {
+    font-family: 'Itim', cursive;
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 35px;
+    padding: 30px;
+}
+
+
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+td, th {
+    border: 5px solid rgb(225, 72, 17);
+}
+
+th {
+    padding: 10px 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+div#Table-sec {
+    margin: 100px 200px;
+    background-color: #e4e0df;
+    box-shadow: 0px 2px 6px #00000075;
+}
+
+div#form-title {
+    font-size: 50px;
+    text-align: center;
+}
+
+div#form {
+    margin: 50px 400px;
+}
+
+
+input, select, button {
+    padding: 12px 20px;
+}
+
+input, select, button {
+    padding: 12px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+/* footer */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgb(243, 237, 234);
+    font-family: 'Righteous', cursive;
+    padding: 10px;
+
+
+
+}
+
+#footer-logo img {
+    margin-top: 20px;
+    float: left;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+#social-media {
+
+    color: rgb(11, 11, 11);
+    float: right;
+
+}
+
+#social-media p {
+    margin: 0 20px 20px 0;
+}
+
+#copy-rights {
+
+    color: rgb(6, 6, 6);
+    margin-top: 25px;
+    text-align: center;
+}
