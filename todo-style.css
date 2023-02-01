@@ -58,22 +58,6 @@ main div image {
     margin: 10px 0 10px 20px;
     float: left;
 }
-div#par-part {
-    background-color: #f9ca7a;
-    width: 600px;
-    height: 400px;
-    margin: 40px 100px;
-    border-radius: 20px;
-    box-shadow: 0px 3px 7px #0000006e;
-}
-
-#par-part p {
-    font-family: 'Itim', cursive;
-    font-family: 'Ribeye Marrow', cursive;
-    font-size: 35px;
-    padding: 30px;
-}
-
 
 
 table {
@@ -102,10 +86,15 @@ div#Table-sec {
 div#form-title {
     font-size: 50px;
     text-align: center;
+ 
+}
+#My-content{
+background-color: rgb(225, 72, 17);
 }
 
 div#form {
     margin: 50px 400px;
+    text-align: rightr;
 }
 
 
@@ -129,7 +118,7 @@ body {
 
 footer {
     margin-top: auto;
-    background-color: rgb(243, 237, 234);
+    background-color: rgb(255, 255, 255);
     font-family: 'Righteous', cursive;
     padding: 10px;
 
@@ -138,10 +127,9 @@ footer {
 }
 
 #footer-logo img {
-    margin-top: 20px;
+    margin-top: 80px;
     float: left;
-    border-radius: 50%;
-    width: 45px;
+    width: 60px;
     height: 45px;
 }
 
@@ -153,12 +141,14 @@ footer {
 }
 
 #social-media p {
-    margin: 0 20px 20px 0;
+    margin: 0 10px 10px 0;
 }
+
 
 #copy-rights {
 
     color: rgb(6, 6, 6);
-    margin-top: 25px;
+    font-size: 10px;
+    margin-top: 20px;
     text-align: center;
 }
