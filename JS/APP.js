@@ -7,10 +7,15 @@ var inputAge = prompt("Please enter your age: ");
 if(inputAge <= 0)
 {
     alert("Wrong input")
-
+  
 }
+
 var confirMsgResult = confirm("Skip the welcoming message? ");
 
+if (confirMsgResult == true)
+{console.log(confirMsgResult)}
+else
+{
 switch (inputGender){
 case(inputGender = 'female'):
    var G="Ms.";
@@ -24,6 +29,7 @@ case(inputGender = 'male'):
  
  default:
     alert("Hello from our side");
-break;}
+break;}}
+
 
 
