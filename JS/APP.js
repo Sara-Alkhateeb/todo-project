@@ -31,17 +31,17 @@ else {
 }
 
 var inputYesNoQ1 = prompt("Are you a student: Yes or No ");
-if (inputYesNoQ1 === "") {
+while (inputYesNoQ1 === "") {
     inputYesNoQ1 = "invalid" 
 };
 
 var inputYesNoQ2 = prompt("Are you graduated : Yes or No ");
-if (inputYesNoQ2 === "") {
+while (inputYesNoQ2 === "") {
     inputYesNoQ2 = "invalid" 
 };
 
 var inputYesNoQ3 = prompt("Are you an employee : Yes or No ");
-if (inputYesNoQ3 === "") {
+while (inputYesNoQ3 === "") {
     inputYesNoQ3 = "invalid" 
 };
 
