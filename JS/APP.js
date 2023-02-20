@@ -30,20 +30,54 @@ else {
     }
 }
 
-var inputYesNoQ1 = prompt("Are you a student: Yes or No ");
-while (inputYesNoQ1 === "") {
-    inputYesNoQ1 = "invalid" 
-};
 
-var inputYesNoQ2 = prompt("Are you graduated : Yes or No ");
-while (inputYesNoQ2 === "") {
-    inputYesNoQ2 = "invalid" 
-};
+function validateInput(input) {
+  if (input === "") {
+    return "invalid";
+  }
+  return input;
+}
 
-var inputYesNoQ3 = prompt("Are you an employee : Yes or No ");
-while (inputYesNoQ3 === "") {
-    inputYesNoQ3 = "invalid" 
-};
+function getAnswers() {
+  let answers = [];
+  let questions = ["Are you a student: Yes or No", "Are you graduated : Yes or No", "Are you an employee : Yes or No"];
+  for (let i = 0; i < questions.length; i++) {
+    let answer = validateInput(prompt(questions[i]));
+    answers.push(answer);
+  }
+  return answers;
+}
 
-let ArrQ = [inputYesNoQ1, inputYesNoQ2, inputYesNoQ3];
-console.log(ArrQ);
+function printAnswers(answers) {
+  answers.forEach(answer => console.log(answer));
+}
+
+let answers = getAnswers();
+printAnswers(answers);
+
+
+  // function printAnswers() {
+  //   answers.forEach(answer => console.log(answer));
+  // }
+
+
+
+// }
+
+// var inputYesNoQ1 = prompt("Are you a student: Yes or No ");
+// while (inputYesNoQ1 === "") {
+//     inputYesNoQ1 = "invalid" 
+// };
+
+// var inputYesNoQ2 = prompt("Are you graduated : Yes or No ");
+// while (inputYesNoQ2 === "") {
+//     inputYesNoQ2 = "invalid" 
+// };
+
+// var inputYesNoQ3 = prompt("Are you an employee : Yes or No ");
+// while (inputYesNoQ3 === "") {
+//     inputYesNoQ3 = "invalid" 
+// };
+
+// let ArrQ = [inputYesNoQ1, inputYesNoQ2, inputYesNoQ3];
+// console.log(ArrQ);
